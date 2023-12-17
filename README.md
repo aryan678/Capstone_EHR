@@ -1,35 +1,16 @@
 # HealthCare Using Ethereum Blockchain
 
 ## Project Objective
-This project is developed with the aim to store patient healthcare records over blockchain.
-The DApp build provides a patient centric system in which patient has control over his data i.e. patient themselves decide who can view their profiles/data. The system classifies the users into five categories: __Owner__, __Hospitals__, __Insurance Company__, __Doctor__ and __Patient__. 
+This project aims to leverage blockchain technology for storing patient healthcare records in a decentralized application (DApp). The DApp is designed with a patient-centric approach, granting patients control over their data. Users are categorized as Owner, Hospitals, Insurance Company, Doctor, and Patient.
 
-Patient can grant or revoke data access permission to/from any doctor. Patients can also add files to their profile/data like reports, Xrays etc. which will be stored over IPFS. These files can help the doctors (who have been granted access) to review and treat patient accordingly. Also patients can view the past consultation records.
+Patients have the authority to grant or revoke data access permissions to any doctor. Additionally, patients can upload files such as reports and X-rays to their profiles using IPFS for storage. These files serve as valuable resources for doctors with granted access, enabling them to review patient information for accurate treatment. Patients also have the ability to access their past consultation records.
 
-Doctors are provided with facility to view the patient records to which they have access granted. Doctors can view their patients' files and previous consultations too and can accordingly provide consultation or treatment.
+For doctors, the system provides the capability to view patient records for whom they have been granted access. Doctors can access patient files and review previous consultations, allowing them to offer tailored consultations and treatments based on the available information.
 
 
 
 ## To run this project kindly install following prerequisites :
 
-* "Truffle" v5.1.20
-    * solc: "0.5.16"
-    
-* "Node" v12.16.1 (Install Following with npm)
-  * "antd": "^3.9.0",
-  * "axios": "^0.19.2",
-  * "bootstrap": "^4.4.1",
-  * "bs58": "^4.0.1",
-  * "ipfs-api": "^26.1.2",
-  * "react": "16.11.0",
-  * "react-bootstrap": "^1.0.0",
-  * "react-dom": "16.11.0",
-  * "react-scripts": "3.2.0",
-  * "web3": "1.2.2"
-
-* Install Metamask as Browser extension.
-
-* Install Ganache for deployement of Contracts.
 
 ## Steps to run project : 
 1) Add ___truffle-config.js___ file in Ganache.
